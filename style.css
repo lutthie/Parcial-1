@@ -1,0 +1,144 @@
+
+ #main-container {
+     width: 100%;
+     margin: 0px auto;
+}
+ #header{
+     width: 100%;
+     background-color: #151615;
+     padding: 10px;
+     color: #2dc29b;
+}
+ #header:after{
+     content: ".";
+     display: block;
+     height: 0;
+     clear: both;
+     visibility: hidden;
+}
+#header section{
+     float: left;
+     width: 30%;
+     font-size: 18px;
+     font-weight: bold;
+     font-family: 'Raleway', sans-serif !important;
+}
+#header img{
+    width: 15%;
+    vertical-align: middle;
+    padding: 10px;
+}
+ #header nav {
+     width: 50%;
+     float: left;
+}
+
+#header nav h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+ #header nav ul {
+     list-style: none;
+     width: 260%;
+}
+ #header nav ul li {
+     float: left;
+     min-width: 10%;
+     padding: 4px;
+     margin-left: 10px;
+     background-color: #346d5f;
+     text-align: center;
+     color: white;
+}
+ #header nav ul li a, a {
+     text-decoration: none;
+     color: azure;
+}
+
+ #main-body-container {
+     padding: 15px;
+     margin: 15px;
+  }
+ #main-body-container:after {
+     content: ".";
+     display: block;
+     height: 0;
+     clear: both;
+     visibility: hidden;
+}
+ #displayads{
+     padding: 20px;
+     margin: 30px;
+     border-radius: 15px;
+     background: #385254;
+}
+#displayads h1{
+    font-family: 'Raleway', sans-serif;
+    color: #2dc29b;
+}
+#displayads section{
+    font-family: 'Raleway',sans-serif;
+    color: azure;
+}
+#displayads img{
+    width: 100%;
+    padding-top: 15px;
+}
+ #displayarticle {
+     float: left;
+     width: 60%;
+     border-radius: 15px;
+     min-height: 450px;
+     background: #385254;
+}
+#displayarticle h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #2dc29b;
+    padding-left: 20px;
+}
+#displayarticle section{
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+    padding-left: 10px;
+}
+#displayarticle section img{
+    float: left;
+    padding: 10px;
+}
+#displayarticle #r{
+    padding-bottom: 15px;
+}
+ #sidebar {
+     float: right;
+     width: 38%;
+     border-radius: 15px;
+     min-height: 450px;
+     background: #385254;
+}
+#sidebar h1{
+    font-family: 'Raleway', sans-serif;
+    color: #2dc29b;
+    padding-left: 20px;
+}
+#sidebar section{
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+    padding-left: 30px;
+}
+#sidebar section table{
+    padding-left: 30px;
+}
+#sidebar table{
+    width: 50%;
+}
+#sidebar section iframe{
+    padding-bottom: 25px;
+}
+ #footer {
+     font-family: 'Raleway', sans-serif;
+     width: 100%;
+     background-color: #151615;
+     padding: 10px;
+     color: white;
+}
